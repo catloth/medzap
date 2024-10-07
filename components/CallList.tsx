@@ -1,5 +1,3 @@
-// @ts-nocheck
-
 'use client'
 
 import { useGetCalls } from '@/hooks/useGetCalls'

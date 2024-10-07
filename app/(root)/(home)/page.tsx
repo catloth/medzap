@@ -5,7 +5,7 @@ const Home = () => {
   const now = new Date();
   
   const time = now.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' });
-  const date = (new Intl.DateTimeFormat('pt-BR', { dateStyle: 'full' }).format(now));
+  //const date = (new Intl.DateTimeFormat('pt-BR', { dateStyle: 'full' }).format(now));
 
   return (
     <section className="flex size-full flex-col gap-10 text-white">
