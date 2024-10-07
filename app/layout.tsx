@@ -40,7 +40,7 @@ export default function RootLayout({
         appearance={{
           layout: {
             logoImageUrl: '/icons/doctor_256.png',
-            socialButtonsVariant: 'iconButton'
+            socialButtonsVariant: 'iconButton',
           },
           variables: {
             colorText: '#fff',
